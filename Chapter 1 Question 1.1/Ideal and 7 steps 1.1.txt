@@ -1,0 +1,17 @@
+Chapter 1 Question 1.1
+
+IDEAL and Duke's 7 Steps combined
+
+I - Check whether String input is unique or not
+
+D - Return either true or false depending on whether the String is unique or not
+
+E - Since asking for unique characters on a single String input, if I consider using a HashSet to check for duplicate characters, 
+    I can use a single for-loop to check each character and see if it's contained within the HashSet or not.
+
+A - If using a boolean method, the outcome should be either true or false.
+
+L - After checking my solution with edge cases, the solution appears accurate.
+
+
+
