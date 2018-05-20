@@ -5,7 +5,7 @@ public class Ch1Q1 {
 
 	public static void main(String[] args) {
 		
-		String unique = "boolean";
+		String unique = "boolean"; // Use whatever string you'd like to test
 		uniqueCharacterCheck(unique);
 
 	}
