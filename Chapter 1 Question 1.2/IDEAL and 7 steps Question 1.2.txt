@@ -1,0 +1,16 @@
+ Chapter 1 Question 1.2
+
+IDEAL and Duke's 7 Steps combined
+
+I - The problem is whether two strings are permutations of each other or not.
+
+D - The goals for this problem are to accurately check each individual Character from each string to see if they are permutations of each other.
+
+E - I first considered a HashSet as the data structure to use, however it only stores new unique characters. 
+    Meaning that if I tried to compare a string with multiple of the same letter, it would not work.
+    I then considered using a HashMap which would allow me to change the index associated with each character in the string.
+
+A - If Using a HashMap works and we create a boolean method, our result should be either true or false for the permutation of the strings.
+
+L - Once I created the method with the HashMap and considered edge cases as well as time complexity and space complexity, the solution appears to be accurate and optimal.
+   
