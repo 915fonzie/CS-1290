@@ -1,0 +1,23 @@
+Chapter 1 Question 1.4
+
+Given a string, write a function to check if it is a permutation of a palindrome. A palindrome is a word or phrase that is the same fowards and backwards.
+A permutation is a rearrangement of letters. The palindrome does not need to be limited to just dictionary words.
+
+
+
+IDEAL and Duke's 7 Steps combined
+
+I - Check to see if a given string is a purmutation of a palindrome.
+
+D - Have a return of either true or false depending on whether the String is a purmutation of a palindrome or not.
+
+E - Since a palindrome is the same foward and backwords, that would require that there would be at least 2 of the same character except for the case where 
+    if the String is an odd number of characters, there will be one unique character in the middle. Considering that, I have to use something like a HashMap
+    to check how many of each character there is and if there is more than one unique character, it would make the return false.
+
+A - At first I did not anticipate how to check for more than one unique character so, when I first tested my code, the return was coming up false when it should've been true.
+    After I realized that mistake, I set up a temporary integer to use as a counter within an if statement when checking the indexes of the HashMap.
+
+L - Since I used a HashMap, it does require to check the entire string which would make the minimun Big O at O(n) for time complexity.
+    The program appears to work after testing with edge cases.
+   
