@@ -1,5 +1,7 @@
 Chapter 1 Question 1.1
 
+Implement an algorithm to determine if a string has all unique characters. What if you cannot use any additional data structures?
+
 IDEAL and Duke's 7 Steps combined
 
 I - Check whether String input is unique or not
