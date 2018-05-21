@@ -1,0 +1,19 @@
+Chapter 2 Question 2.1
+
+Write code to remove duplicates from an unsorted linked list.
+Follow up
+How would you solve this problem if a temporary buffer is not allowed?
+
+
+IDEAL and Duke's 7 Steps combined
+
+I - Remove duplicates from an unsorted linked list
+
+D - Doesn't necessarily ask to return anything but, I would return the unsorted linked list after duplicates have been removed.
+
+E - If I still don't consider the follow up to the question, I can go ahead and use a hashset to interate between the linked list and remove the duplicates in one run.
+
+A - I expect there to be only unique characters stored into the HashSet and to be able to return the linked list with no duplicates.
+
+L - Was not able to work it out without a buffer at the moment (will try at a later time), but both time and space complexity in this solution is 0(N) and appears to work.
+   

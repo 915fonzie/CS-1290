@@ -1,0 +1,22 @@
+public static void deleteDuplicates(LinkedListNode n){
+
+	HashSet<Integer> list = new HashSet<Integer>();
+	LinkedListNode before = null;
+
+	while(n != null){
+	
+		if(list.contains(n.data)){
+
+			before.next = n.next;
+
+		}
+		else{
+
+		list.add(n.data);
+		before = n;
+		
+		}
+		n = n.next;
+	}
+
+}
