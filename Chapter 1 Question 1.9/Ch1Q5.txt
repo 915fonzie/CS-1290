@@ -1,0 +1,12 @@
+public static boolean rotation(String s1, String s2){
+
+	int count = s1.length();
+
+	if(count == s2.length() && count > 0){
+		String ss1 = s1 + s1;
+		return isSubstring(ss1, s2);
+	}
+	return false;
+
+
+}

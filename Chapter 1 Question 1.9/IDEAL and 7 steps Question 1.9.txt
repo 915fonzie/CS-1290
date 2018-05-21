@@ -1,0 +1,20 @@
+Chapter 1 Question 1.9
+
+String Rotation: Assume you have a method isSubstring which checks if one word is a substring of another. 
+Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring(e.g., "waterbottle" is a rotation of "erbottlewat").
+
+
+IDEAL and Duke's 7 Steps combined
+
+I - Given two strings, return if s2 is a rotation of s1 using one call of isSubstring
+
+D - return whether s2 is a rotation of s1 or not. Check if s1 and s2 are the same length.
+
+E - While looking at what a substring is, I can see that if s2 is a rotation of s1, s2 would simply be a substring of s1 + s1 or s1s1. 
+    
+
+A - I first checked for length to make sure both strings were equal. I then took the assumption that I previously had of s2 being a substring of s1s1
+    and put s1s1 and s2 into the isSubstring method to compare.
+
+L - Assuming isSubstring works, Big O in this case would be O(n) although runtime does depend on the usSubstring.
+   
