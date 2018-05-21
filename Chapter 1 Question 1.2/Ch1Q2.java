@@ -4,7 +4,7 @@ import java.util.*;
 public class Ch1Q2 {
 
 	public static void main(String[] args) {
-		String s1 = "abc";
+		String s1 = "abc"; //feel free to change strings to test
 		String s2 = "cba";
 		
 		System.out.println(permutation(s1, s2));
