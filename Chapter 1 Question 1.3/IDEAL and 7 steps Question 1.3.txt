@@ -1,0 +1,22 @@
+Chapter 1 Question 1.3
+
+write a method to replace all the spaces in a string with '%20'. You may assume that the string has sufficient space at the end to hold the additional characters,
+and that you are given the "true" length of the string.(Note: if implementing in Java, please use a character array so that you can perform this operation in place.)
+
+Ex.  input: "Mr John Smith      ", 13
+    output: "Mr%20John%20Smith"
+
+IDEAL and Duke's 7 Steps combined
+
+I - You have to replace all the spaces in a string with '%20'
+
+D - Create a method that replaces all the spaces with '%20' and does the operation in-place.
+
+E - Since I was using Java, I tried implementing character arrays to get the outcome that was needed. I wasn't successful so I went another route.
+    I decided to use a StringBuilder instead and see if that worked
+
+A - Although I would be storing the original string into a new string to get the intended outcome, I expect that with edge cases, the program will still succeed.
+
+L - If I had more time I would attempt using character arrays (maybe later in time I will attempt again), 
+    however I stuck with using a StringBuilder to seperate the Strings between the spaces and append '%20' to replace those spaces and the program appears to work.
+   
