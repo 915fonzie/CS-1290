@@ -1,0 +1,18 @@
+Chapter 2 Question 2.3
+
+Implement an algorithm to delete a node in the middle(i.e., any node but the first and last) of a singly linked list,
+given only access to that node.
+
+IDEAL and Duke's 7 Steps combined
+
+I - Create an algorithm to delete a node within a singly linked list.
+
+D - Check node that was given to see if its first or last within the linked list. If it isn't, Delete node from Linked List
+
+E - First created if statement to determine whether or not it was within the first or last position.
+    Then simply did a loop around nodes to delete the node.
+
+A - Outcomes of this should be very simple and nothing is exptected to return, but if you choose to run it, the program should work.
+
+L - This one was fairly simple and not too complicated.
+   

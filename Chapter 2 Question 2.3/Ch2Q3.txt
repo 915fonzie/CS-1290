@@ -1,0 +1,15 @@
+public static boolean deleteMiddleNode(LinkedListNode n){
+
+	if(n == null || n.next == null){
+	
+		return false;
+
+	}
+
+	LinkedListNode skip = n.next;
+	n.data = skip.data;
+	n.next = skip.next;
+	return true;
+	
+
+}
