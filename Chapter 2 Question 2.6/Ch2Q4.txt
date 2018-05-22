@@ -1,0 +1,34 @@
+public static boolean checkPalindrome(Node head, int s){
+
+	boolean check = false;
+	Node t1 = head;
+	Stack<Character> stack = new Stack<Character>();
+
+	for(int i = 1; i < s/2; i++){
+
+		stack.push((char)t1.data);
+		t1.next;
+	}
+	if(s%2 == 1){
+
+		t1.next.next;
+	{
+	else
+		t1.next;
+
+	for(int i = 1; i < s/2; i++){
+
+		if(stack.pop() == (char)t1.data){
+
+			check = true;
+		}
+		else{
+
+			check = false;
+		}
+
+		t1.next;
+	}
+	return check;
+
+}

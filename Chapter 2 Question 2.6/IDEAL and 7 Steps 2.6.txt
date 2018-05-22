@@ -1,0 +1,21 @@
+Chapter 2 Question 2.6
+
+Implement a function to check if a linked list is a palindrome.
+
+IDEAL and Duke's 7 Steps combined
+
+I - Check if a Linked list is a palindrome.
+
+D - Return either true or false depending on whether the Linked list is a palindrome or not.
+
+E - One possible solution that I thought of was using a stack to check the list.
+    Looking a little deeper, Since we’re given the length of the list, I will attempt
+    to store half the list in the stack and compare the second part of the list with 
+    the stored stack by popping the stack and check if the stack is empty at the end.
+
+A - If I’m able to implement the code correctly, the outcome should be a return 
+    statement of either true or false if the Link list is a palindrome.
+
+L - From looking at my solution and hand tracing for edge cases, the result appears 
+    accurate and I believe Big O is O(N) for time complexity and 0(N) for space 
+    complexity as well.
