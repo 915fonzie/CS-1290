@@ -1,0 +1,18 @@
+Chapter 2 Question 2.2
+
+Implement an algorithm to find the kth to last element of a singly linked list.
+
+IDEAL and Duke's 7 Steps combined
+
+I - Find the kth to last element within a singly linked list.
+
+D - return a single element from a linked list.
+
+E - The possible solution that I want to implement is the same with a similar question that I’ve answered
+    where I use two pointers to track the kth value.
+
+A - If the pointers are placed in the correct spot after checking for the kth value, the outcome should result
+    in the return of the value of kth.
+
+L - I did not implement the entire class to test the method, but I did use leetcode.com with a similar question
+    and the result was the return of the kth value.
