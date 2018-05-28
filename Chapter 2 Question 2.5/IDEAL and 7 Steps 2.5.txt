@@ -1,6 +1,7 @@
 Chapter 2 Question 2.5
 
-You have two numbers represented by a linked list, where each node contains a single digit. the digits are stored in reverse order, such that the 1’s digit is at the head of the list. Write a function that adds the two numbers and returns the sum as a linked list.
+You have two numbers represented by a linked list, where each node contains a single digit. the digits are stored in reverse order, such
+that the 1’s digit is at the head of the list. Write a function that adds the two numbers and returns the sum as a linked list.
 
 IDEAL and Duke's 7 Steps combined
 
@@ -8,8 +9,15 @@ I - write a function that takes two numbered that are reversed, added together, 
 
 D - Take two numbers, reverse them, add the values together, and return the sum of those two reversed numbers into a linked list.
 
-E - The first solution that I thought of was to take the two numbers that were in the linked list, reverse the numbers, make them into one integer, and add them together into another integer. Afterwards, convert that integer into another linked list. The solution I created did work, however, I did not consider what would happen if the values of each number exceeded the size of what an integer can be so I had to come up with another solution that would work every time. I then considered adding the numbers individually inside the list and at the same time, put that value into another linked list.
+E - The first solution that I thought of was to take the two numbers that were in the linked list, reverse the numbers, make them into one
+integer, and add them together into another integer. Afterwards, convert that integer into another linked list. The solution I created did
+work, however, I did not consider what would happen if the values of each number exceeded the size of what an integer can be so I had to
+come up with another solution that would work every time. I then considered adding the numbers individually inside the list and at the
+same time, put that value into another linked list.
 
-A - For my first solution I did not anticipate the size of the numbers that would be inputted thus I ended up working out the code that way until I realized the problem that it would have. Once I anticipated the size of the numbers, I changed my solution and then acted on that.
+A - For my first solution I did not anticipate the size of the numbers that would be inputted thus I ended up working out the code that
+way until I realized the problem that it would have. Once I anticipated the size of the numbers, I changed my solution and then acted on
+that.
 
-L - I was able to actually test my solutions becuase the same problem is on leetcode.com and that is where I found out the problem to my first solution. After realizing that problem I had to create an entirely different solution which ended up working afterwards.
+L - I was able to actually test my solutions becuase the same problem is on leetcode.com and that is where I found out the problem to my
+first solution. After realizing that problem I had to create an entirely different solution which ended up working afterwards.
