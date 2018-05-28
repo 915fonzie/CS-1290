@@ -1,0 +1,22 @@
+Chapter 3 Question 3.2
+
+How would you design a stack which, in addition to push and pop, has a function min which returns the minimum element?
+Push, pop, and min should all operate in O(1) time.
+
+IDEAL and Duke's 7 Steps combined
+
+I - We're being asked to design a stack that does push, pop, and return the minimum element.
+
+D - The goal is to create each function and return each function in O(1) time.
+
+E - In order to make everything run in O(1) time, I'm thinking I need to create a stack that while the value is being added,
+    it is also being checked if it is the current minimum value. In order to do that, I should use the nodes of the values when comparing.
+    As for the pop function, we don't really need to modify how that works since it will already run in O(1) time.
+
+A - The outcomes as far as what the output should be, is that when the push function is used, it adds a value to a stack and at the
+    same time compares itself to the last value inputted if any and see if its the minimum. Then if the pop function is used, it removes
+    the last value inputted into the stack. Lastly, if the getMin function is used, it will pull the head of the minimum value.
+
+L - I was able to check my code for any cases that I might have missed on leetcode.com since the same question is on there.
+    The solution appears to work and if checking for time complexity, it also appears to be O(1).
+   
